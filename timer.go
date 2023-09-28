@@ -60,3 +60,5 @@ func main() {
 		fmt.Printf("Days: %d Hours: %d Minutes: %d Seconds: %d\n", timeRemaining.d, timeRemaining.h, timeRemaining.m, timeRemaining.s)
 	}
 }
+
+// go build timer.go && ./timer -deadline=2023-09-12T12:18:00+01:00
